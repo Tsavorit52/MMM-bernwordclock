@@ -1,5 +1,9 @@
 # Module: Word Clock
-This Magic Mirror module displays a Word Clock written in the Swiss German dialect of Bern.
+This Magic Mirror module displays a Word Clock written in the Swiss German dialect of Nidwalden.
+
+## Installing the module
+- cd MagicMirror/modules
+- git clone https://github.com/Tsavorit52/MMM-nidwaldenwordclock.git
 
 ## Using the module
 
