@@ -35,28 +35,28 @@ Module.register("MMM-bernwordclock",{
 		this.elements = [];
 
 		this.elements["hour1"] = "eis";
-		this.elements["hour2"] = "zwöi";
-		this.elements["hour3"] = "drü";
+		this.elements["hour2"] = "zwei";
+		this.elements["hour3"] = "drey";
 		this.elements["hour4"] = "vieri";
-		this.elements["hour5"] = "füfi";
+		this.elements["hour5"] = "feyfi";
 		this.elements["hour6"] = "sächsi";
 		this.elements["hour7"] = "sibni";
 		this.elements["hour8"] = "achti";
-		this.elements["hour9"] = "nüni";
-		this.elements["hour10"] = "zäni";
+		this.elements["hour9"] = "neyni";
+		this.elements["hour10"] = "zähni";
 		this.elements["hour11"] = "eufi";
-		this.elements["hour12"] = "zwöufi";
+		this.elements["hour12"] = "zweufi";
 
 		this.elements["befor"] = "vor";
 		this.elements["past"] = "ab";
 
-		this.elements["five"] = "füf";
-		this.elements["ten"] = "zää";
-		this.elements["quarter"] = "viertu";
+		this.elements["five"] = "feyf";
+		this.elements["ten"] = "zäh";
+		this.elements["quarter"] = "viertel";
 		this.elements["twenty"] = "zwänzg";
-		this.elements["half"] = "haubi";
+		this.elements["half"] = "houbi";
 
-		this.elements["it"] = "es";
+		this.elements["it"] = "äs";
 		this.elements["is"] = "isch";
 
 		this.elements["dot1"] = "dot1";
@@ -210,18 +210,18 @@ Module.register("MMM-bernwordclock",{
 	getDom: function() {
 
 		var wrapper = document.createElement("div");	
-		wrapper.innerHTML = "<span id=\"dot1\">.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"dot2\">.</span><br />" + 
-								"&nbsp;<span id=\"es\">E S</span> K <span id=\"isch\"> I S C H </span> A <span id=\"füf\">F Ü F</span>&nbsp;<br />" +
-								"&nbsp;<span id=\"viertu\">V I E R T U</span> B F <span id=\"zää\" >Z Ä Ä</span>&nbsp;<br />" +
+		wrapper.innerHTML = "<span id=\"dot1\"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"dot2\"></span><br />" + 
+								"&nbsp;<span id=\"äs\">Ä S</span> K <span id=\"isch\"> I S C H </span> A <span id=\"feyf\">F E Y F</span>&nbsp;<br />" +
+								"&nbsp;<span id=\"viertel\">V I E R T E L</span> F <span id=\"zäh\" >Z Ä H</span> E&nbsp;<br />" +
 								"&nbsp;<span id=\"zwänzg\">Z W Ä N Z G</span> S I <span id=\"vor\">V O R</span>&nbsp;<br />" +
-								"&nbsp;<span id=\"ab\">A B </span>O <span id=\"haubi\">H A U B I </span>E G E&nbsp;<br />" +
-								"&nbsp;<span id=\"eis\">E I S </span><span id=\"zwöi\">Z W Ö I </span>S <span id=\"drü\">D R Ü</span>&nbsp;<br />" +
-								"&nbsp;<span id=\"vieri\">V I E R I</span> <span id=\"füfi\">F Ü F I </span>Q T&nbsp;<br />" +
-								"&nbsp;<span id=\"sächsi\">S Ä C H S I </span><span id=\"sibni\">S I B N I</span>&nbsp;<br />" +
-								"&nbsp;<span id=\"achti\">A C H T I </span><span id=\"nüni\">N Ü N I </span>E L&nbsp;<br />" +
-								"&nbsp;<span id=\"zäni\">Z Ä N I </span>E R B <span id=\"eufi\">E U F I</span>&nbsp;<br />" +
-								"&nbsp;<span id=\"zwöufi\">Z W Ö U F I </span>N A U H R&nbsp;<br />" +
-								"<span id=\"dot3\">.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"dot4\">.</span><br />";
+								"&nbsp;<span id=\"ab\">A B </span>O <span id=\"houbi\">H O U B I </span>E G E&nbsp;<br />" +
+								"&nbsp;<span id=\"eis\">E I S </span><span id=\"zwei\">Z W E I </span>S <span id=\"drey\">D R E Y</span>&nbsp;<br />" +
+								"&nbsp;<span id=\"vieri\">V I E R I</span> <span id=\"feyfi\">F E Y F I </span>Q T&nbsp;<br />" +
+								"&nbsp;<span id=\"sächsi\">S Ä C H S I </span><span id=\"sibni\">S I B N I</span> H&nbsp;<br />" +
+								"&nbsp;<span id=\"achti\">A C H T I </span><span id=\"neyni\">N E Y N I </span>E L&nbsp;<br />" +
+								"&nbsp;<span id=\"zähni\">Z Ä H N I </span>E R B <span id=\"eufi\">E U F I</span>&nbsp;<br />" +
+								"&nbsp;<span id=\"zweufi\">Z W E U F I </span>N A U H R&nbsp;<br />" +
+								"<span id=\"dot3\"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"dot4\"></span><br />";
 
 		return wrapper;
 	}
