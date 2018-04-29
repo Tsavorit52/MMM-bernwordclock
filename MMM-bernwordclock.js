@@ -210,7 +210,7 @@ Module.register("MMM-bernwordclock",{
 	getDom: function() {
 
 		var wrapper = document.createElement("div");	
-		wrapper.innerHTML = "<span id=\"dot1\"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"dot2\"></span><br />" + 
+		wrapper.innerHTML = "<span id=\"dot1\">.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"dot2\">.</span><br />" + 
 								"&nbsp;<span id=\"äs\">Ä S</span> K <span id=\"isch\"> I S C H </span> A <span id=\"feyf\">F E Y F</span>&nbsp;<br />" +
 								"&nbsp;<span id=\"viertel\">V I E R T E L</span> F <span id=\"zäh\" >Z Ä H</span> E&nbsp;<br />" +
 								"&nbsp;<span id=\"zwänzg\">Z W Ä N Z G</span> S I <span id=\"vor\">V O R</span>&nbsp;<br />" +
@@ -221,7 +221,7 @@ Module.register("MMM-bernwordclock",{
 								"&nbsp;<span id=\"achti\">A C H T I </span><span id=\"neyni\">N E Y N I </span>E L&nbsp;<br />" +
 								"&nbsp;<span id=\"zähni\">Z Ä H N I </span>E R B <span id=\"eufi\">E U F I</span>&nbsp;<br />" +
 								"&nbsp;<span id=\"zweufi\">Z W E U F I </span>N A U H R&nbsp;<br />" +
-								"<span id=\"dot3\"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"dot4\"></span><br />";
+								"<span id=\"dot3\">.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id=\"dot4\">.</span><br />";
 
 		return wrapper;
 	}
