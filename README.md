@@ -16,6 +16,7 @@ modules: [
 	},
 ]
 ````
+You can change the size of the module by changing the "font-size" in "MagicMirror/modules/MMM-nidwaldenwordclock/bernwordclock.css"
 
 ## Screenshot 
 
